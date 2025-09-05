@@ -22,3 +22,7 @@ object terere{
 object cianuro{
   method efecto(cantidad) = 0
 }
+
+object mate{
+    method efecto(cantidad) = 2000.min(1.1*cantidad)
+}
